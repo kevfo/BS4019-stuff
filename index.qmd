@@ -1,0 +1,12 @@
+# Preface {.unnumbered}
+
+## About Dr. Ignacio Asial
+
+Dr. Ignacio is an Argentinian who finished his High School, his Bachelors', and his Masters' in France before coming to Singapore for his PhD (at NTU).
+
+```{r echo = F, fig.cap = "Dr. Ignacio Asial's Background and Credentials", fig.align = "center"}
+knitr::include_graphics("images/pref/prof.jpg")
+```
+
+Dr. Ignacio has since gone on to found his own company [DotBio](https://www.dotbio.com/)
+

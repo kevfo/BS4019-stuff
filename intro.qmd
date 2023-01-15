@@ -1,0 +1,324 @@
+# Introduction to Antibodies
+
+This chapter covers rudimentary information on antibodies, including but not limited to the kinds found in the human body, their response to pathogens, their interactions, and their structure.
+
+## The Immune System
+
+```{r echo = F, fig.cap = "Various Antibodies in the Human Immune System", fig.align = "center"}
+knitr::include_graphics("images/wk1/antibodies.jpg")
+```
+
+The human body has numerous tissues and organs that are included in its immune system (i.e., a system that helps fend off pathogens):
+
+1.  **Adenoids**
+
+    This is the first level of protection against pathogens in the nose.
+    
+1.  **Lymph Nodes**
+
+    These enable B and T-cell activations
+    
+1.  **Bone Marrow**
+
+    This is the site where blood is produced (i.e., haematopoiesis).  B-cells also develop here via bone marrow-derived lymphocytes.
+    
+1.  **Tonsils**
+
+    This is the first level of protection against pathogens in the mouth.
+    
+1.  **Thymus**
+
+    This organ helps T-cells to mature.
+    
+1.  **Spleen**
+
+    This acts as a reserve of red blood cells (and also helps filter them).  Microbes, opsonized pathogens, and aged or dead red blood cells are also filtered out here.
+    
+    B and T-cell activation also happens here.
+    
+1.  **Lymph Vessels**
+
+    Immune cells are circulated around the body via these.
+
+### Innate and Adaptive Immunity
+
+The **innate** immune system enables "non-self" antigens (e.g., pathogens) to be quickly eliminated.  Cells in this system present antigens to activate T-cells (hence supporting antibody response).
+
+```{r echo = F, fig.cap = "Timeline of Infection", fig.align = "center"}
+knitr::include_graphics("images/wk1/mic.jpg")
+```
+
+The **adaptive** immune system has a slow response time (i.e., after the dashed vertical line above) and improves over time.  Only via "memory" does this system quickly respond to known antigens.
+
+### Main Cells of the Immune System
+
+```{r echo = F, fig.cap = "Cells of the Immune System", fig.align = "center"}
+knitr::include_graphics("images/wk1/maincells.jpg")
+```
+
+The immune system has many cells, of which include:
+
+1.  **Macrophages**
+
+    These belong to the *innate* immune system and perform phagocytosis.  
+    
+    These are antigen-presenting cells.
+    
+1.  **Dendritic Cells**
+
+    These also belong to the *innate* immune system and also play a role in phagocytosis, proteolysis, and the presentation of antigens.
+    
+    These cells also play a role in T-cell activation.
+    
+1.  **Natural Killer Cells**
+
+    These belong to the *innate* immune system.  They kill infected or cancer cells.
+    
+1.  **T-Cells**
+
+    These belong to the *adaptive* immune system; they are also specialized in recognizing non-self antigens via T-cell receptors.
+    
+    There are numerous T-cells with different functions.
+    
+1.  **B-Cells and Plasma Cells**
+
+    These are part of the *adaptive* immune system and play a role in the production of antibodies.
+    
+### T-Cell Differentiation
+
+```{r echo = F, fig.cap = "Possible T-Cells from Differentiation", fig.align = "center"}
+knitr::include_graphics("images/wk1/tdiff.jpg")
+```
+
+T-cells can differentiate into one of four kinds of T-cells:
+
+1.  **CD8+ "Cytotoxic" T-Cells**
+
+    These kill cells that display a non-self antigen (e.g., an infected / tumor cell).
+    
+1.  **CD4+ "Helper" T-Cells**
+
+    These help activate CD8+ T-Cells and also B-Cells.
+    
+1.  **CD4+ Regulatory Cells (Treg)**
+
+    These help down-regulate the immune response.
+
+1.  **Memory T-Cells**
+
+    A small portion of T-cells go onto become involved in long-term immune responses.
+    
+### B-Cell Differentiation
+
+```{r echo = F, fig.cap = "B-Cell Differentiation in the Human Immune System", fig.align = "center"}
+knitr::include_graphics("images/wk1/bdiff.jpg")
+```
+
+Similarly, B-cells can also go onto mature into one of several different kinds of B-cells:
+
+1.  **Naive B-Cells**
+
+    These are B-cells that display antibodies against different kind of antigens' surfaces (with about 10^7^ to 10^8^ different kinds of specific surfaces).
+
+1.  **Activated B-Cells**
+
+    This happens when a naive B-cell binds to a specific antigen.  This antigen (see above picture) is then displayed on its surface to help recruit CD4+ T-cells.
+
+1.  **Plasma B-Cells**
+
+    These are antibody-producing cells.
+    
+    **IgM** - antibodies with a weak affinity and specificity - are produced and secreted.  **IgG** - antibodies with a higher affinity and specificity - are generated in the long run.
+    
+1.  **Memory B-Cells**
+
+    These are involved in the long-term immune response to previously-encountered antigens.
+    
+IgG-secreting antibodies can also be selected for further differentiation to produce higher-affinity IgGs via a maturation process.
+
+## Immune System Responses
+
+```{r echo = F, fig.cap = "Structures Involved in Innate and Adaptive Immunity", fig.align = "center"}
+knitr::include_graphics("images/wk1/proteins.jpg")
+```
+
+The human body's innate immune system relies on patterns that are associated with pathogens and cell damage.
+
+The adaptive immune system relies on specialized molecules with high specificities: **T**-**c**ell **r**eceptors (i.e, **TCR**s) and antibodies.
+
+### Antigen-Recognizing Molecules of the Immune System
+
+```{r echo = F, fig.cap = "Some Antigen-Recognizing Molecules", fig.align = "center"}
+knitr::include_graphics("images/wk1/molecules.jpg")
+```
+
+BS4019 covers a few:
+
+1.  **MHC molecules**
+
+    These molecules shows linear peptides on antigen-presenting, infected, or cancerous cells.
+    
+1.  **T-Cell Receptors**
+
+    These are receptors that are displayed by T-cells.
+    
+    These receptors also help recognize linear peptides that are shown by MHC molecules.
+    
+1.  **Immunoglobins (i.e., Ig / antibodies)**
+
+    These are secreted by $\beta$-cells.  Immunoglobins also recognize epitopes of various natures (e.g., proteins, lipids, sugars, etc).
+
+### Phases of the Adaptive Immune System
+
+```{r echo = F, fig.cap = "Activation of the Adaptive Immune System", fig.align = "center"}
+knitr::include_graphics("images/wk1/activation.jpg")
+```
+
+The above figure goes in the following order:
+
+1.  **Antigen Recognition**
+
+    Antigen-presenting cells (e.g., dendritic cells) show an antigen that is recognized by a naive T cell and / or a naive B-cell recognizes an antigen via an antibody on its surface.
+    
+1.  **Lymphocyte Activation**
+
+    The specific T-cell is activated and undergoes clonal expansion.  The T-cell then differentiates into effector T-cells.
+    
+    The specific B-cell becomes activated, undergoes clonal expansion, and differentiates into antibody-producing cells.
+    
+1.  **Antigen Elimination**
+
+    Cytotoxic T-cells help eliminate infected cells.
+    
+    Antibodies also block pathogens and recruit innate immune cells (e.g., NK cells) to eliminate pathogens.
+    
+1.  **Contraction**
+
+    After pathogens are eliminated, cytotoxic T-cells and antibody-producing B-cells undergo apoptosis (i.e., they kill themselves).
+    
+1.  **Memory**
+
+    Memory B and T-cells form - these survive into the long term and rapidly produce antibodies in the case of re-infection.
+    
+#### Primary and Secondary Responses to an Infection 
+
+```{r echo = F, fig.cap = "Amount of Antibodies over Time", fig.align = "center"}
+knitr::include_graphics("images/wk1/response.jpg")
+```
+
+The first response is IgM-rich - because of this, it is relatively weak and non-specific.
+
+The secondary response is IgG-rich - it is stronger and more specific.
+
+
+#### What are Cytokines?
+
+```{r echo = F, fig.cap = "Examples of Cytokines in Various Scenarios", fig.align = "center"}
+knitr::include_graphics("images/wk1/cytokine.jpg")
+```
+
+**Cytokines** are cell signalling molecules that are involved in the innate and adaptive immune systems.
+
+## Parts of an Antibody
+
+```{r echo = F, fig.cap = "Basic Structure of an Antibody", fig.align = "center"}
+knitr::include_graphics("images/wk1/antibody.jpg")
+```
+
+An **antibody** is a protein that is comprised of antigen-binding and crystallizable fragments.
+
+The **antigen binding fragments (Fab)** interact with antigens via **v**ariable **h**eavy (i.e., **VH**) and **v**ariable **l**ight (i.e., **VL**) domains.  Together, The VH and the VL form the antigen binding site.
+
+The **crystallizable fragment (Fc)** perform effector functions - they help recruit NK and complimentary cells.
+
+The **hinge region** allows the Fab and Fc regions to rotate and accommodate different interactions.
+
+### Light and Heavy Chains
+
+```{r echo = F, fig.cap = "Light and Heavy Chains of an Antibody", fig.align = "center"}
+knitr::include_graphics("images/wk1/light.jpg")
+```
+
+**Light chains** have one constant and one variable domain.
+
+**Heavy chains** have one variable domain and three to four constant domains.
+
+### Intermolecular and Intramolecular Disulfide Bonds
+
+```{r echo = F, fig.cap = "Bonds in an Antibody", fig.align = "center"}
+knitr::include_graphics("images/wk1/bonds.jpg")
+```
+
+Antibodies are stabliized by inter- and intramolecular disulfide bonds at the following locations:
+
+1.  **Intra-Domain Disulfide Bonds**
+
+    There is one disulfide bond per domain - this contributes to domain stability and fold.
+    
+1.  **Ch1 - CL Disulfide Bonds**
+
+    There is one of such bond per Fab.  This bond stabilizes the heterodimer between heavy and light chains.
+    
+1.  **Hinge Region Disulfide Bonds**
+
+    There are a variable number of these bonds (depending on the antibody in question).  
+    
+    These bonds stabilize IgG dimers.
+    
+### Antibody Isotypes
+
+```{r echo = F, fig.cap = "Various Antibodies Found in the Human Body", fig.align = "center"}
+knitr::include_graphics("images/wk1/isotypes.jpg")
+```
+
+The above table shows the various antibodies that are found in the human body.
+
+IgG antibodies are the preferred format for developing antibodies - these have a fast response time to pathogens, have a high affinity, and a long serum half-life.
+
+IgM antibodies are produced in the early phases of an immune reaction (to pathogens) - these antibodies have weak affinities (which are compensated by a pentameric format).  However, they can recruit a complement system.
+
+## Antibody-Antigen Interactions
+
+```{r echo = F, fig.cap = "Structure of Antibody Labelled", fig.align = "center"}
+knitr::include_graphics("images/wk1/epi.jpg")
+```
+
+BS4019 uses the following terms:
+
+1.  **Antigen**
+
+    This is a specific molecule that is targeted by an antibody.
+    
+1.  **Epitope**
+
+    This is the specific sequence or surface of an antigen that is targeted by an antibody.
+    
+1.  **Paratope**
+
+    This is the specific sequence or surface of the *antibody* that interacts with the antigen.
+    
+1.  **Fab**
+
+    These are made out of heavy *and* light chains.
+    
+###  Complimentary Determining Regions (i.e., CRDs)
+
+```{r echo = F, fig.cap = "CRDs in an Antibody", fig.align = "center"}
+knitr::include_graphics("images/wk1/vhvhl.jpg")
+```
+
+All VH and VL domains carry three CDRs each - each of these CDRs also vary in sequence composition and length.
+
+The CDRs are hypervariable regions that provide specificity.
+
+
+
+
+
+
+
+
+
+
+
+

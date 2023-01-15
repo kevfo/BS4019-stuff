@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: "BS4019: Antibodies"
+  author: "Jane Doe"
+  date: "11/01/2023"
+  chapters:
+    - index.qmd
+    - part: "**PART 1 : LECTURES**"
+      chapters: 
+      - intro.qmd
+  repo-url: https://github.com/kevfo/BS4019-stuff
+  repo-actions: [edit, issue]
+  comments:
+    hypothesis: true
+  reader-mode: true
+  page-navigation: true
+  sharing: [twitter, facebook]
+  
+bibliography: references.bib
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
