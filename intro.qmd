@@ -4,7 +4,7 @@ This chapter covers rudimentary information on antibodies, including but not lim
 
 ## The Immune System
 
-```{r echo = F, fig.cap = "Various Antibodies in the Human Immune System", fig.align = "center"}
+```{r echo = F, fig.cap = "Various Organs of the Human Immune System", fig.align = "center"}
 knitr::include_graphics("images/wk1/antibodies.jpg")
 ```
 
