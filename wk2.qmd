@@ -1,3 +1,315 @@
-# Antibody stuff
+# Therapeutic Antibody Design
 
-Insert stuff here...
+This week's (i.e., week 2) lecture focuses on the following topics:
+
+1.  Antibody effector functions
+1.  IgG subclasses and their effector functions
+1.  Approaches to making therapeutic antibodies
+1.  Understanding disease biology
+1.  Therapeutic antibody design
+
+## Surfaces of the Crystallizable Fragment (i.e., Fc)
+
+```{r echo = F, fig.cap = "Surfaces of the Fc", fig.align = "center"}
+knitr::include_graphics("images/wk2/fc.jpg")
+```
+
+Different surfaces of the Fc each perform a different function:
+
+1.  **Fc$\gamma$R Binding**
+
+    Here, glycosylation is important for binding.  This is also the site of ADCC^[This stands for [Antibody-dependent cellular cytotoxicity](https://en.wikipedia.org/wiki/Antibody-dependent_cellular_cytotoxicity)] and ADCP^[This stands for [Antibody-Dependent Cellular Phagocytosis](https://iqbiosciences.com/bioservices/in-vitro_bioservices/antibody-dependent-cellular-phagocytosis-adcp-assay/)].
+    
+1.  **C1q Binding**
+
+    CDC.
+    
+1.  **FcRn Binding**
+
+    Protein A/G binding allows for the purification of recombinant antibodies.
+    
+    This receptor is also responsible for placental transport and serum half-life extension (see below).
+    
+### Complement System Recruitment 
+
+```{r echo = F, fig.cap = "Recruitment Process of the CDC", fig.align = "center"}
+knitr::include_graphics("images/wk2/cdcr.jpg")
+```
+
+There are six main steps:
+
+1.  A multivalent antibody binds and recruits a C1 complex.
+1.  Step 1. ends up initiating a *complement activation cascade*.
+1.  C5 is cleaved into C5a and C5b as a result of 2.
+1.  C5a promotes inflammation.
+1.  C5b recruits the **M**embrane **A**ttachment **C**omplex (i.e., **MAC**)
+1.  The MAC creates pores in the cell membrane - this leads to cell lysis (and eventually, death).
+
+### Recruiting NK Cells and Macrophages
+
+The following process is that of Antibody-Dependent Cellular Cytotoxicity:
+
+```{r echo = F, fig.cap = "How NK Cells are Recruited", fig.align = "center"}
+knitr::include_graphics("images/wk2/nkcr.jpg")
+```
+
+Once an antibody is bound to the surface of an antigen, an NK cell's CD16-Fc receptors recognize these antibodies.
+
+As CD-16 are crossed linked, this causes the affected cell to die by apoptosis.
+
+```{r echo = F, fig.cap = "Recruitment of Macrophages by IgG Antibodies", fig.align = "center"}
+knitr::include_graphics("images/wk2/mcr.jpg")
+```
+
+Once IgG antibodies have bound to an antigen, the IgG antibodies bind to the phagocyte via Fc receptors (Fc$\gamma$RI).
+
+These signals (i.e., Fc receptor signals) then causes phagocytosis, thereby killing the antigen.
+
+### Extending Serum Half Lives via Binding of FC Neonatal Receptors (i.e., FcRn)
+
+```{r echo = F, fig.cap = "How FcRn Binding Works", fig.align = "center"}
+knitr::include_graphics("images/wk2/fcrn.jpg")
+```
+
+There are four main processes:
+
+1.  Endothelial cells engulf fluids containing IgGs and other plasma proteins from their surrounding environments^[This is called **pinocytosis**].
+
+1.  The early endosomes contain FcRns that bind to the IgG antibodies with a high affinity in spite of the slightly acidic environment (i.e., about pH 6).
+
+1.  IgG-FcRn complexes are directed to recycling endosomes while other proteins become degraded in the lysosomes.
+
+1.  When IgGs reach cell surfaces, the FcRn binding affinity is reduced due to the pH (i.e., at about 7.4 at this point) - the IgG antibody is released.
+
+## Fc Receptors 
+
+```{r echo = F, fig.cap = "Several Fc Receptors", fig.align = "center"}
+knitr::include_graphics("images/wk2/fcr.jpg")
+```
+
+```{r echo = F, fig.cap = "More Details on Fc Receptors", fig.align = "center"}
+knitr::include_graphics("images/wk2/fcd.jpg")
+```
+
+There are several possible receptors available for the Fc fragment of an antibody, of which the following are the most important:
+
+1.  **Fc$\gamma$RI**
+
+    This is important for phagocytosis and activation.
+    
+1.  **Fc$\gamma$RIIIA**
+
+    This is for ADCC.
+    
+1.  **Fc$\gamma$RIIB**
+
+    This receptor inhibits phagocytosis and cytokine release.
+    
+1.  **FcRn**
+
+    These extend the serum half-life of the antibody.
+
+## IgG Subclasses
+
+```{r echo = F, fig.cap = "Subclasses of the IgG Antibody", fig.align = "center"}
+knitr::include_graphics("images/wk2/iggsub.jpg")
+```
+
+There are four main oligomers:
+
+1.  **IgG1**
+
+    This is always monomeric bivalent and is the most common subclass for therapeutic antibodies.
+    
+1.  **IgG2**
+
+    This is in equilibrium between its monomeric bivalent and dimeric tetravalent forms.  
+    
+    This form is sometimes used to develop therapeutic antibodies.
+    
+1.  **IgG3**
+
+    This is always monomeric bivalent, but not very commonly used to develop therapeutic antibodies.
+    
+1.  **IgG4**
+
+    This subclass exists in three different states: monomeric bivalent (left), monomeric monovalent (middle), and mixed monovalent bi-specific forms (right).
+    
+    This is used to develop therapeutic antibodies after Fc engineering to stabilize its monomeric bivalent form.
+
+## Steps to Designing a Therapeutic Antibody {#steps}
+
+There are a total of *five* steps to designing such an antibody:
+
+### Step \#1: Understanding the Disease
+
+```{r echo = F, fig.cap = "An Example Diagram of a Localized Tumor", fig.align = "center"}
+knitr::include_graphics("images/wk2/cancer.jpg")
+```
+
+Antibody therapies are generally based on a solid understanding of the mechanisms that underlie the illness being targeted - in this case, cancer.
+
+The diagram above shows a tumor cell that is surrounded by an excess of ATP molecules (i.e., the pink circles) in vivo.  These ATP molecules may promote further release of ATP, cell growth (i.e., uncontrolled mitosis), and also immune and inflammatory cell responses.
+
+### Step \#2: Identifying the Target Molecule and the Mode of Action
+
+```{r echo = F, fig.cap = "Possible Modes of Action of an Antibody", fig.align = "center"}
+knitr::include_graphics("images/wk2/step2.jpg")
+```
+
+Depending on the intended modes of action and / or the target regions of the target (i.e., the epitope) for the antibody in question, a different subclass of IgG antibodies might need to be used.
+
+Recall that IgG1 antibodies excel in targeting carbohydrates while IgG2 antibodies excel in targeting polysaccharides (e.g., sugar coatings).
+
+### Step \#3: Generating the Antigen Binding Fragments 
+
+BS4019 lists two common methods of performing this step:
+
+#### Using Animals 
+
+```{r echo = F, fig.cap = "Using Mice as Model Organisms for Antibody Generation", fig.align = "center"}
+knitr::include_graphics("images/wk2/animal.jpg")
+```
+
+In this procedure, an antigen is first injected into an animal (i.e., step 1).  A serum (i.e., step 2) can then be extracted to yield a **polyclonal** antibody solution^[While this can be used in practice, the resulting serum will be very crude and may not be as effective or safe as using a solution of monoclonal antibodies.].
+
+Once antibody-producing B-cells can be extracted from the animal, these same B-cells are also fused with tumor cells to form **hybridoma cells** (i.e., step 4).  These cells divide indefinitely and in doing so, produce antibodies.
+
+These antibodies are then screened^[This is because many different kinds of antibodies can be produced from the hybridoma cells.] to filter out the correct antibody for mass production before they are *clonally expanded* to form monoclonal antibodies.
+
+##### An Alternative to Step 4 
+
+Bioinformatics may also be used to generate a suitable sequence to be fused with tumor cells' genomes.  
+
+The VH and VL regions of the Fab fragment of the target antibody can then be amplified via in vivo methods (e.g., phage displays).
+
+#### Phage Libraries 
+
+```{r echo = F, fig.cap = "Antibody Production Using Bacteriophages", fig.align = 'center'}
+knitr::include_graphics("images/wk2/phage.jpg")
+```
+
+A library that contains about 10^10^ is first displayed at the surface of a bacteriophage before it is exposed to an antigen (which is typically the protein of interest that has been immobilized on a surface).  In doing so, non-binding phages are washed away.
+
+The binding phages then go on to infect *E. coli* cells - this process happens about two to six times.  An ELISA assay is typically used after this to ensure binding.  The phages may also be sequenced to identify Fab sequence.
+
+##### Alternative Steps 
+
+Instead of developing a phage library, a yeast or mRNA display can be used instead.
+
+Otherwise, next-generation sequencing can also be used in step 4.
+
+#### Step \#4: Selecting an Appropriate IgG Subclass
+
+```{r echo = F, fig.cap = "Potential Uses and Side Effects of Different IgG Antibody Subclasses", fig.align = "center"}
+knitr::include_graphics("images/wk2/subclass.jpg")
+```
+
+Recall that IgG3 antibodies are generally never used in therapeutic antibody production due to its unfavorable diamond configuration.
+
+However, both IgG1 and IgG2 / IgG4 antibodies can be used with the following side effects for:
+
+1.  **Blocking Activity**
+
+    IgG2 / IgG4 antibodies can be used to accomplish this without destroying the cell.
+    
+    IgG1 antibodies can be used too, but they cause cell death.
+    
+1.  **Cell Activation**
+
+    IgG2 / (engineered) IgG4 antibodies can be used to do this without killing the cell.
+    
+    IgG1 antibodies can be used for this purpose too, albeit they kill the cell.
+    
+1.  **Recruiting NK Cells**
+
+    IgG1 antibodies can be used for this.
+    
+    Engineered IgG1 antibodies can lead to enhanced ADCCs.
+    
+1.  **Recruiting Monocytes**
+    
+    IgG1 antibodies are used for this.
+    
+    Engineered IgG1 antibodies can lead to enhanced opsonisation^[This is a process whereby a pathogen is surrounded by antibodies.].
+    
+1.  **Recruiting Complements**
+
+    Normal CDCs can help recruit IgG1 antibodies.
+    
+    Likewise, enhancing CDCs can help recruit enhanced IgG1 antibodies.
+    
+### Step \#5: Humanizing Antibodies 
+
+```{r echo = F, fig.cap = "Immunogenicity Risk of Antibody by Humanization Status", fig.align = "center"}
+knitr::include_graphics("images/wk2/immuno.jpg")
+```
+
+Humanizing antibodies decreases the risk of **immunogenicity**: the event that the body's immune system attacks a non-self molecule.
+
+**Chimeric antibodies** are antibodies whose VH and VL regions from mice antibodies have been grafted onto a human antibody's Fab fragment.
+
+```{r echo = F, fig.cap = "Some Examples of Therapeutic Antibodies", fig.align = "center"}
+knitr::include_graphics("images/wk2/human.jpg")
+```
+
+In a **humanized antibody**, parts of the Fab's CDR have been grafted on from mouse antibodies.
+
+Some examples of FDA-approved antibodies are shown in the above table.  Depending on the suffix of the antibody's name, one can guess the origin of the antibody - most notably:
+
+1.  "-lumab" refers to a human antibody.
+1.  "-umab" refers to a mouse antibody.
+1.  "-ximab" refers to a chimeric antibody.
+
+### Step \#6: Validating Molecules 
+
+See the [following chapter]() for more information!
+
+## Phages and Library Displays 
+
+```{r echo = F, fig.cap = "Some Nobel Prize Winners for the Development of Phage Libraries", fig.align = "center"}
+knitr::include_graphics("images/wk2/bonel.jpg")
+```
+
+A possible alternative to using animals to generate antibodies include using phage libraries (as outlined in [section 2.4](#steps)).
+
+The individuals behind the development of phage libraries have been awarded Nobel prizes (see above image).
+
+### Life Cycle of a Phage 
+
+```{r echo = F, fig.cap = "Life Cycle of a Bacteriophage", fig.align = "center"}
+knitr::include_graphics("images/wk2/life.jpg")
+```
+
+It is believed that M13 phage coat proteins are formed in the periplasm before they are packed into the phage in question.
+
+Note that other phages (e.g., bacteriophage T7) can also be packed into the cytoplasm.
+
+### Phage Display Formats 
+
+```{r echo = F, fig.cap = "Possible cDNA Outcomes from Recombination", fig.align = "center"}
+knitr::include_graphics("images/wk2/disp.jpg")
+```
+
+### Library Creation from cDNA
+
+```{r echo = F, fig.cap = "Creating a Gene Library from Bacteriophages' cDNA", fig.align = "center"}
+knitr::include_graphics("images/wk2/naiveclone.jpg")
+```
+
+### Kunkel Mutagenesis
+
+This was also prof. Asial's focus during his PhD.
+
+```{r echo = F, fig.cap = "Kunkel Mutagenesis Outlined", fig.align = "center"}
+knitr::include_graphics("images/wk2/kunkel.jpg")
+```
+
+
+
+
+
+
+
+
+

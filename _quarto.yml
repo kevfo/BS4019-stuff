@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "BS4019: Discovery of Therapeutic ANtibodies"
+  title: "BS4019: Discovery and Development of Therapeutic Antibodies"
   author: "Kevin Fo"
   date: "11/01/2023"
   chapters:
@@ -11,6 +11,7 @@ book:
     - part: "**PART 1 : LECTURES**"
       chapters: 
       - intro.qmd
+      - wk2.qmd
   repo-url: https://github.com/kevfo/BS4019-stuff
   repo-actions: [edit, issue]
   comments:
