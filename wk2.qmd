@@ -8,7 +8,7 @@ This week's (i.e., week 2) lecture focuses on the following topics:
 1.  Understanding disease biology
 1.  Therapeutic antibody design
 
-## Surfaces of the Crystallizable Fragment (i.e., Fc)
+## Surfaces of the Crystallizable Fragment (i.e., Fc) {#begin2}
 
 ```{r echo = F, fig.cap = "Surfaces of the Fc", fig.align = "center"}
 knitr::include_graphics("images/wk2/fc.jpg")
@@ -22,7 +22,7 @@ Different surfaces of the Fc each perform a different function:
     
 1.  **C1q Binding**
 
-    CDC.
+    This performs CDC.
     
 1.  **FcRn Binding**
 
@@ -165,7 +165,7 @@ Recall that IgG1 antibodies excel in targeting carbohydrates while IgG2 antibodi
 
 BS4019 lists two common methods of performing this step:
 
-#### Using Animals 
+#### Using Animals {#animals}
 
 ```{r echo = F, fig.cap = "Using Mice as Model Organisms for Antibody Generation", fig.align = "center"}
 knitr::include_graphics("images/wk2/animal.jpg")
@@ -183,7 +183,7 @@ Bioinformatics may also be used to generate a suitable sequence to be fused with
 
 The VH and VL regions of the Fab fragment of the target antibody can then be amplified via in vivo methods (e.g., phage displays).
 
-#### Phage Libraries 
+#### Phage Libraries {#phage}
 
 ```{r echo = F, fig.cap = "Antibody Production Using Bacteriophages", fig.align = 'center'}
 knitr::include_graphics("images/wk2/phage.jpg")

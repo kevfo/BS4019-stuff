@@ -12,6 +12,7 @@ book:
       chapters: 
       - intro.qmd
       - wk2.qmd
+      - wk3.qmd
   repo-url: https://github.com/kevfo/BS4019-stuff
   repo-actions: [edit, issue]
   comments:

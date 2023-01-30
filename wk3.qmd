@@ -1,0 +1,219 @@
+# Pre-clinical Validation of Antibodies 
+
+This lecture deals with the following concepts:
+
+1.  Antibody sequence cloning for recombinant expression
+1.  Antibody production
+1.  Antibody purification
+1.  Binding validations
+1.  Activity validation
+
+## Generating Antibody Binding Fragments (i.e., Fab)
+
+### Antibody Generation Methods
+
+One possible option involves animal production - this was covered in the [previous week's lecture](#animals) on designing and producing therapeutic antibodies.
+
+Otherwise, [phage display libraries](#phage) can also be used as an alternative to animals.
+
+Recall from the [beginning of the second lecture](#begin2) that an antibody's Fc region has various surfaces that perform different functions.
+
+### Cloning Antibodies into Expression Vectors
+
+```{r echo = F, fig.cap = "Example of Genes Encoding for a Fab Fragment Being Put into a BAC", fig.align = "center"}
+knitr::include_graphics("images/wk4/vector.jpg")
+```
+
+The above figure shows an example of how genes that encode for an antibody's Fab region can be cleaved and integrated into a bacterium's plasmid for.
+
+This typically happens in the periplasm where disulfide-bridge formation usually occurs.
+
+```{r echo = F, fig.cap = "Example of Genes Encoding for a Fab Fragment Being Encoded in Mammalian Cells", fig.align = "center"}
+knitr::include_graphics("images/wk4/mammal.jpg")
+```
+
+Otherwise, Fab fragments and IgG antibodies can also be produced recombinantly in mammalian cells before being secreted into media.
+
+## Production Systems
+
+Mammalian systems are the typical go-to system for bio-pharmaceutical companies.  The usage of mammalian systems have increased by more than three times from 1989 and before to between 2015 and 2018.
+
+```{r echo = F, fig.cap = "Advantages and Disadvantages of Bacterial and Mammalian Production Systems", fig.align = "center"}
+knitr::include_graphics("images/wk4/advan.jpg")
+```
+
+While bacterial systems are can be used to reduce production cost, they also come with their own set of disadvantages.  Bacterial production systems are generally used in validation systems.
+
+Other expression systems not covered in BS4019 include: yeast cells, insects, and murine (i.e., mouse) N50 cell lines.
+
+## Purification Systems
+
+### Affinity Chromatography 
+
+**Affinity chromatography** is the purification of a compound based on its specific bindings.
+
+```{r echo = F, fig.cap = "Steps and Absorbance Graph in Purification", fig.align = "center"}
+knitr::include_graphics("images/wk4/purify.jpg")
+```
+
+The above steps outline how a specific antibody can be filtered out from a solution containing many kinds of antibodies.
+
+Nevertheless, there are also the following methods in purification:
+
+1.  **IMAC**
+
+    This is short for **I**mmobilized-**M**etal **B**inding **C**hromatography.  Here, proteins of histidine-tagged proteins are done on a Ni^2+^ or Co^2+^ column.
+    
+    Imadazole is used as the eluding agent.
+    
+1.  **Protein A Purification**
+
+    Antibodies are purified on a protein A column.  This is done at a low pH.
+    
+1.  **Protein G Purification**
+
+    Antibodies are purified on a protein G column.  This is done at a low pH.
+
+### Ion Exchange
+
+**Ion exchange** are purification systems that are based on charges.
+
+```{r echo = F, fig.cap = "Ion Exchange Purification Systems Illustrated", fig.align = "center"}
+knitr::include_graphics("images/wk4/ion.jpg")
+```
+
+**Anion exchange** is ion exchange with negatively-charged proteins while **cation exchange** is the purification of positively-charged proteins.
+
+### Size Exclusion Chromatography
+
+```{r echo = F, fig.cap = "Size Exclusion Chromatogrpahy Illustrated", fig.align = "center"}
+knitr::include_graphics("images/wk4/size.jpg")
+```
+
+**Size exclusion chromatography** purifes compounds based on their sizes.  
+
+While this technique is used in research settings, it is not suitable for industrial purifications of mAbs.
+
+### ELISA
+
+**ELISA** is short for **E**nzyme-**L**inked **I**mmuno**s**orbent **A**ssay.  
+
+```{r echo = F, fig.cap = "Steps in an ELISA", fig.align = "center"}
+knitr::include_graphics("images/wk4/elisa.jpg")
+```
+
+Horseradish peroxidase (i.e., HRP) is an enzyme used in ELISA; it is conjugated to an antibody or streptavidin.
+
+## Binding Validations
+
+This can happen in one of many methods:
+
+### via ELISA
+
+```{r echo = F, fig.cap = "Binding Validation via ELISA", fig.align = "center"}
+knitr::include_graphics("images/wk4/elisabind.jpg")
+```
+
+ELISA can be used in binding validation in one of many ways:
+
+1.  **Direct ELISA**
+
+    This is the simplest format; it needs a HPR-conjugated primary antibody.
+    
+1.  **Indirect ELISA**
+
+    This is easier to set up and uses a secondary antibody-HRP conjugate.  
+    
+    The primary and secondary antibody must be of different species.
+    
+1.  **Sandwich ELISA**
+
+    This is more specific as the target is captured by the specific antibody.
+    
+    This technique also requires two antibodies against the target's different epitopes.
+
+1.  **Competitive ELISA**
+
+    Proteins in solution compete with the immobilized target, hence reducing the signal.
+    
+    This is used in epitope mapping and activity assays.
+    
+### Surface Plasmon Resonance (i.e., SPR)
+
+```{r echo = F, fig.cap = "Figure Illustrating Surface Plasmon Resonance", fig.align = "center"}
+knitr::include_graphics("images/wk4/spr.jpg")
+```
+
+This was prof. Asial's PhD during his 2013 stint with NTU.
+
+```{r echo = F, fig.cap = "Principle Behind SPR", fig.align = "center"}
+knitr::include_graphics("images/wk4/sprprin.jpg")
+```
+
+The general idea behind this validation method is that analyte binding changes the angle of reflected light.  
+
+When an analyte is introduced, it passes through a blank flow cell and becomes immobilized on a chip that contains an antigen.  A thin layer of gold opposite the aforementioned chip is excited by polarized light from a prism - this reflected light is captured on a detector.  
+
+When the antigen and antibody binds, there is an increase in mass and also a change in refractive angle (i.e., Figure B).  The binding eventually reaches saturation - the maximum refractive angle - before it returns back to the original baseline.
+
+### Biolayer Interferometry (i.e., BLI)
+
+```{r echo = F, fig.cap = "Schematics of a BLI", fig.align = "center"}
+knitr::include_graphics("images/wk4/bli.jpg")
+```
+
+This method measures the change in light wavelength due to thickness changes at the end of a fibre optic tip.
+
+```{r echo = F, fig.cap = "BLI Data During Experimentation", fig.align = "center"}
+knitr::include_graphics("images/wk4/blibli.jpg")
+```
+
+The above graph shows what data collected during a BLI may appear as to the user.
+
+```{r echo = F, fig.cap = "Binding Affinity Graph", fig.align = "center"}
+knitr::include_graphics("images/wk4/aff.jpg")
+```
+
+Both SPR and BLI measure binding affinity.  The following terms are used:
+
+1.  $k_a$ is the association constant measured in M^-1^s^-1^
+1.  $k_d$ is the disassociation constant measured in s^-1^
+1.  $K_d$ is the equilibrium disassociation constant in M.  Note that $\displaystyle K_d = \frac{k_d}{k_a}$.
+
+For antibodies, a fast $k_\text{on}$ and a slow $k_\text{off}$ is preferred.
+
+$k_D$ should be less than 10 nM in the Fab format while $k_D$ should be less than 5 nM in the IgG format.
+
+### Flow Cytometry
+
+```{r echo = F, fig.cap = "Diagram Illustrating Flow Cytometry", fig.align = "center"}
+knitr::include_graphics("images/wk4/flow.jpg")
+```
+
+There are a handful of steps:
+
+1.  Antibodies are labelled using fluorescence and put in contact with target cells.
+1.  Cells flow through the laser one at a time.
+1.  Light scattering detectors help determine particle size to identify different cell types.
+1.  Fluorescence detectors detect antibodies found in cells.
+1.  In some settings, cells can be sorted to fluorescence.
+1.  The data is analyzed using software.
+
+## Activity Assays
+
+### ELISA-Based Assays
+
+```{r echo = F, fig.cap = "ELISA-Based Assays", fig.align = "center"}
+knitr::include_graphics("images/wk4/aa.jpg")
+```
+
+
+
+
+
+
+
+
+
+
+
