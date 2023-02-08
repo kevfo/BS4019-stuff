@@ -117,5 +117,26 @@
     "title": "3  Pre-clinical Validation of Antibodies",
     "section": "3.5 Activity Assays",
     "text": "3.5 Activity Assays\n\n3.5.1 ELISA-Based Assays\n\n\n\n\n\nELISA-Based Assays"
+  },
+  {
+    "objectID": "wk5.html",
+    "href": "wk5.html",
+    "title": "4  Case Study: Rituximab",
+    "section": "",
+    "text": "In this week’s lecture, prof. Asial runs through some common tips for searching for information on the web. He also illustrates his findings (as an example) on the FDA-approved antibody Rituximab.\nProf. Asial also recommends the above reading for those who want to know more about therapeutic antibodies and their use in diseases."
+  },
+  {
+    "objectID": "wk5.html#potential-sources-and-trail-following",
+    "href": "wk5.html#potential-sources-and-trail-following",
+    "title": "4  Case Study: Rituximab",
+    "section": "4.1 Potential Sources and Trail Following",
+    "text": "4.1 Potential Sources and Trail Following\nProf. Asial lists some sources:\n\nNature Reviews\n\n\n\n\n\nNature Reviews’ Search Engine\n\n\n\n\nNature Reviews provides rigorous review articles on scientific topics.\nGoogle Images\n\n\n\n\n\nUsing Google Images to Search for Mechanisms of Action\n\n\n\n\nGoogle Images is a nice starting place when trying to look for graphics to explain an antibody’s mode of action.\nPubMed\n\n\n\n\n\nPubMed’s Search Engine\n\n\n\n\nPubMed is also a nice starting point to search for information.\nGoogle Scholar\n\n\n\n\n\nGoogle Scholar’s Search Engine\n\n\n\n\nThis is a very common search engine used to search for scholarly information, yet is also a good starting point.\n\n\n4.1.1 Reading Articles\n\n\n\n\n\nReferences in Articles\n\n\n\n\nOften times in papers, author(s) may reference one or more papers. In some cases, following the reference trail may be handy in helping to find information about the antibody.\n\n\n\n\n\n\n\n\n\nAntibodies may also have different names - as is the case with Rituximab."
+  },
+  {
+    "objectID": "wk5.html#case-study-on-rituximab",
+    "href": "wk5.html#case-study-on-rituximab",
+    "title": "4  Case Study: Rituximab",
+    "section": "4.2 Case Study on Rituximab",
+    "text": "4.2 Case Study on Rituximab\nLymphoma is a cancer of the lymphocytes (i.e., B and / or T-cells).\n\n\n\n\n\nA Stained Reed-Sternberg Cell on Display\n\n\n\n\nIn Hodgkin lymphoma patients, patients exhibit Reed-Sternberg cells (i.e., giant lymphocytes).\nLymphoma cases represent 2.8% of all cancer cases (about 510000 cases) worldwide and 2.6% of all cancer-related fatalities (about 250000 deaths) worldwide.\nIn Singapore, lymphoma represents 4.7% of all cancer cases (about 1099 cases) and about 3% of all cancer-related fatalities (about 361 deaths). It is also the 5th most common cancer among males.\n\n4.2.1 Possible Mechanisms and Treatment\n\n\n\n\n\nIllustration of B Cell Maturation\n\n\n\n\nWhen B-cells mature, they begin expressing a protein called Cluster of Differentiation 20 (i.e., CD20). Newly-formed B-cells do not express this protein.\nHence, a potential therapy for Hodgkin lymphoma could be to deplete B-cell numbers via targeting with monoclonal antibodies.\n\n\n4.2.2 Rituximab’s Mode of Action\n\n\n\n\n\nRituximab’s Mode of Action\n\n\n\n\nWhen Rituximab binds to a B-cell (i.e., opsonization), the tagged B-cell can be eliminated on one of three ways:\n\nComplement Activation Cascade\nThis was covered during week 2. The cascade eventually results in the recruitment of protein called the membrane attachment complex (i.e., MAC). This protein causes lysis and elimination via antibody-dependent cellular cytotoxicity (i.e., ADCC).\nAntibody-Dependent Cellular Phagocytosis (i.e., ADCP)\nThe crystallizable fragments of Rituximab can also recruit macrophages to the site of infection for phagocytosis.\nNK Cell Recruitment\nThe antibody can also recruit NK cells to the site of infection via Fc\\(\\gamma\\)RIII receptors.\n\n\n\n4.2.3 CD20 Target\n\n\n\n\n\nSchematic of the CD20 Protein\n\n\n\n\nCD20 is an integral protein that is exclusively expressed by B-cells. It has four trans-membrane alpha helices and two extracellular loops (where Rituximab binds).\nCD20 is thought to be involved in B-cell differentiation, if not also function as an ion channel (though this yet to be confirmed).\n\n\n\n\n\nStructure of CD20\n\n\n\n\nVia cryo-electron microscopy, it is confirmed that CD20 is a dimer tha binds two Rituximab antigen binding fragments (Rituximab mainly binds to the ECL2 region of CD20).\n\n\n4.2.4 Antibody Discovery, Expression, and Purification\n\n\n\n\n\nBinding Affinity Graphs of Rituximab\n\n\n\n\nRituximab is identified by hybridoma cells and cloned into mammalian expression vectors. The antibody is expressed in CHO cells and purified via protein A chromatography.\nIn another source, the authors claim that the antigen-binding fragments of Rituximab can also be produced in bacterial perplasm; antibodies (i.e., the IgG variety) are produced in HEK293 cells before they are secreted into extracellular media. The authors used protein G chromatography and size-exclusion chromatography."
   }
 ]

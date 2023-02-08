@@ -1,0 +1,137 @@
+# Case Study: Rituximab
+
+In this week's lecture, prof. Asial runs through some common tips for searching for information on the web.  He also illustrates his findings (as an example) on the FDA-approved antibody Rituximab.
+
+```{r echo = F, fig.cap = "Optional Reading for Class", fig.align = "center"}
+knitr::include_graphics("images/wk5/reading.jpg")
+```
+
+Prof. Asial also recommends [the above reading](https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-019-0592-z) for those who want to know more about therapeutic antibodies and their use in diseases.
+
+## Potential Sources and Trail Following
+
+Prof. Asial lists some sources:
+
+1.  **Nature Reviews**
+
+    ```{r echo = F, fig.cap = "Nature Reviews' Search Engine", fig.align = "center"}
+    knitr::include_graphics("images/wk5/nature.jpg")
+    ```
+    
+    Nature Reviews provides rigorous review articles on scientific topics.
+    
+1.  **Google Images**
+
+    ```{r echo = F, fig.cap = "Using Google Images to Search for Mechanisms of Action", fig.align = "center"}
+    knitr::include_graphics("images/wk5/gimage.jpg")    
+    ```
+    
+    Google Images is a nice starting place when trying to look for graphics to explain an antibody's mode of action.
+    
+1.  **PubMed**
+
+    ```{r echo = F, fig.cap = "PubMed's Search Engine", fig.align = "center"}
+    knitr::include_graphics("images/wk5/pubmed.jpg")    
+    ```
+    
+    PubMed is also a nice starting point to search for information.
+
+1.  **Google Scholar**
+
+    ```{r echo = F, fig.cap = "Google Scholar's Search Engine", fig.align = "center"}
+    knitr::include_graphics("images/wk5/scholar.jpg")    
+    ```
+    
+    This is a very common search engine used to search for scholarly information, yet is also a good starting point.
+    
+### Reading Articles 
+
+```{r echo = F, fig.cap = "References in Articles", fig.align = "center"}
+knitr::include_graphics("images/wk5/ref.jpg")
+```
+
+Often times in papers, author(s) may reference one or more papers.  In some cases, following the reference trail may be handy in helping to find information about the antibody.
+
+```{r echo = F, fig.cao = "Original Name of Rituximab", fig.align = "center"}
+knitr::include_graphics("images/wk5/original.jpg")
+```
+
+Antibodies may also have different names - as is the case with Rituximab.  
+
+## Case Study on Rituximab 
+
+**Lymphoma** is a cancer of the lymphocytes (i.e., B and / or T-cells).  
+
+```{r echo = F, fig.cap = "A Stained Reed-Sternberg Cell on Display", fig.align = "center"}
+knitr::include_graphics("images/wk5/reed.jpg")
+```
+
+In **Hodgkin lymphoma** patients, patients exhibit Reed-Sternberg cells (i.e., giant lymphocytes).
+
+Lymphoma cases represent 2.8% of all cancer cases (about 510000 cases) worldwide and 2.6% of all cancer-related fatalities (about 250000 deaths) worldwide.
+
+In Singapore, lymphoma represents 4.7% of all cancer cases (about 1099 cases) and about 3% of all cancer-related fatalities (about 361 deaths).  It is also the 5^th^ most common cancer among males.
+
+### Possible Mechanisms and Treatment
+
+```{r echo = F, fig.cap = "Illustration of B Cell Maturation", fig.align = "center"}
+knitr::include_graphics("images/wk5/bcell.jpg")
+```
+
+When B-cells mature, they begin expressing a protein called **C**luster of **D**ifferentiation **20** (i.e., **CD20**).  Newly-formed B-cells do not express this protein.
+
+Hence, a potential therapy for Hodgkin lymphoma could be to deplete B-cell numbers via targeting with monoclonal antibodies.
+
+### Rituximab's Mode of Action
+
+```{r echo = F, fig.cap = "Rituximab's Mode of Action", fig.align = "center"}
+knitr::include_graphics("images/wk5/action.jpg")
+```
+
+When Rituximab binds to a B-cell (i.e., opsonization), the tagged B-cell can be eliminated on one of three ways:
+
+1.  **Complement Activation Cascade**
+
+    This was covered during week 2.  The cascade eventually results in the recruitment of protein called the **m**embrane **a**ttachment **c**omplex (i.e., **MAC**).  This protein causes lysis and elimination via **a**ntibody-**d**ependent **c**ellular **c**ytotoxicity (i.e., **ADCC**).
+    
+1.  **Antibody-Dependent Cellular Phagocytosis (i.e., ADCP)**
+
+    The crystallizable fragments of Rituximab can also recruit macrophages to the site of infection for phagocytosis.
+    
+1.  **NK Cell Recruitment**
+
+    The antibody can also recruit NK cells to the site of infection via Fc$\gamma$RIII receptors.
+    
+### CD20 Target
+
+```{r echo = F, fig.cap = "Schematic of the CD20 Protein", fig.align = "center"}
+knitr::include_graphics("images/wk5/cd20.jpg")
+```
+
+**CD20** is an integral protein that is exclusively expressed by B-cells.  It has four trans-membrane alpha helices and two extracellular loops (where Rituximab binds). 
+
+CD20 is thought to be involved in B-cell differentiation, if not also function as an ion channel (though this yet to be confirmed).
+
+```{r echo = F, fig.cap = "Structure of CD20", fig.align = "center"}
+knitr::include_graphics("images/wk5/ri.jpg")
+```
+
+Via cryo-electron microscopy, it is confirmed that CD20 is a dimer tha binds two Rituximab antigen binding fragments (Rituximab mainly binds to the ECL2 region of CD20).
+
+### Antibody Discovery, Expression, and Purification
+
+```{r echo = F, fig.cap = "Binding Affinity Graphs of Rituximab", fig.align = "center"}
+knitr::include_graphics("images/wk5/bindingAfff.jpg")
+```
+
+Rituximab is identified by hybridoma cells and cloned into mammalian expression vectors.  The antibody is expressed in CHO cells and purified via protein A chromatography.
+
+In another source, the authors claim that the antigen-binding fragments of Rituximab can also be produced in bacterial perplasm; antibodies (i.e., the IgG variety) are produced in HEK293 cells before they are secreted into extracellular media.  The authors used protein G chromatography and size-exclusion chromatography.
+
+
+
+
+    
+    
+      
+
