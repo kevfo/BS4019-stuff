@@ -1,0 +1,177 @@
+# Clinical Development of Antibodies 
+
+This week's lecture covers the following topics:
+
+1.  Patenting an antibody
+1.  Studying the competition landscape
+1.  Clinical development paths
+1.  Funding clinical developments
+1.  Finding partners
+
+## Patenting Antibodies
+
+Patents exist for the following reasons:
+
+1.  To enjoy exclusive rights for use and commercialization
+1.  To fend off competition
+1.  To generate product revenue via licensing or selling (either to consumers or stakeholders).
+
+However, in the antibody field, patents can usually be awarded for one of four main categories:
+
+1.  **Novel antibodies**
+
+    These refer to antibodies with new sequences or antibodies that target new epitopes.
+    
+1.  **Novel therapeutic antibodies**
+    
+    This refers to the use of an antibody to treat a specific disease.
+
+1.  **Antibody modifications**
+
+    For instance, stabilizing mutations.
+    
+1.  **Methodologies**
+
+    This may involve new screening technologies, new production methods, new diagnostic tools, and so on.
+
+Depending on where the product is made, a patent attorney made need to be approached in the private sector.  In academic settings like NTU, the university's patent office should be engaged^[In the case of NTU, it's NTUitive Pte. Ptd.].
+
+Patents are generally sought prior to disclosing one's invention publicly
+
+### Characteristics of Patents
+
+1.  **Patents are defined by claims**
+
+    ```{r echo = F, fig.cap = "Some Example Patent Claims", fig.align = "center"}
+    knitr::include_graphics("images/wk6/claims.jpg")    
+    ```
+    
+    The above graphic provides some examples.
+    
+1.  **They have a priority and a due date**
+
+    The due date is typically 20 years past the priority date.
+    
+1.  **They provide monopoly rights to an invention**
+
+1.  **They prohibit others from performing certain acts without the stakeholders' permission**
+
+    ```{r echo = F, fig.cap = "Pfizer Being Sued Over Patent Infringements", fig.align = "center"}
+    knitr::include_graphics("images/wk6/sue.jpg")    
+    ```
+
+    The pharmaceutical industry is crowded with patents.  If an infringement occurs, the patent holder can take legal actions.
+    
+    **Patent attorneys** can help avoid such surprises by doing a freedom-to-operate search and analysis.
+
+1.  **They are limited to the territory that they are granted in**
+
+If a patent prohibits one from commercializing their discoveries, they can:
+
+1.  **Try to find a way around the patent**
+
+    For instance, use an alternative method.
+    
+1.  **Pay to use the patent**
+
+    For instance, pay for a license.
+    
+1.  **Strike a deal**
+
+    They can establish a partnership with the company that holds the patent.
+    
+1.  **Challenge the patent**
+
+    If one of the patent's claims has limited foundation, one can also try to invalidate them.
+    
+Whatever the case, *always consult the patent attorney first*!
+
+
+### Patenting Timeline and Costs
+
+```{r echo = F, fig.cap = "Timeline of Acquiring a Patent and the Costs of One", fig.align = "center"}
+knitr::include_graphics("images/wk6/cost.jpg")
+```
+
+## Competition Landscapes
+
+```{r echo = F, fig.cap = "Competition Landscape Graphs", fig.align = "center"}
+knitr::include_graphics("images/wk6/land.jpg")
+```
+
+If a best-in-class drug arrives to the market second, it loses about 12% of its potential financial returns.  A drug of average efficacy can capture 92% of a best-in-class drug's value just by being in first class.
+
+If it not possible to arrive first, then the best-in-class drug should arrive *no later than two years* to capture its potential.  After two to five years, a best-in-class drug would have lost over 40% of its maximum potential value.
+
+## Planning Clinical Developments
+
+```{r echo = F, fig.cap = "Planning Clinical Developments", fig.align = "center"}
+knitr::include_graphics("images/wk6/clinic.jpg")
+```
+
+It generally takes about 12 years and depending on the drug, *as much as 50 million USD* to develop a drug from its discovery to its market authorization.
+
+Because of this, the total cost for pharmaceutical companies to bring a successful drug into the market is about 1.3 to 2.6 billion USD.
+
+### Success Rates
+
+```{r echo = F, fig.cap = "Success Rates for Drug Approval", fig.align = "center"}
+knitr::include_graphics("images/wk6/pass.jpg")
+```
+
+Prof. Asial lists some fundmental statistics regarding the passing rate for drugs:
+
+1.  30% of drugs fail in phases I and III.
+1.  60% of drugs fail in phase II.
+
+Therefore, the overall chances of a drug being approved is about **15%**.
+
+## Funding Clinical Developments
+
+```{r echo = F, fig.cap = "Sources of Funding for Startups and Big Pharmaceutical Companies", fig.align = "center"}
+knitr::include_graphics("images/wk6/funding.jpg")
+```
+
+Depending on whether or not one is a big pharmaceutical company or a startup, there are numerous sources of funding (as shown above).
+
+### Venture Capital
+
+```{r echo = F, fig.cap = "Some Examples of Venture Capital", fig.align = "center"}
+knitr::include_graphics("images/wk6/fund.jpg")
+```
+
+This is the act of selling a percentage of your company for funding.  A reputable investor can also provide than just money: experience, contacts, ideas, and more.
+
+Such funding typically happens in stages.
+
+```{r echo = F, fig.cap = "Sources of Funding in Various Stages", fig.align = "center"}
+knitr::include_graphics("images/wk6/stage.jpg")
+```
+
+There are many options for funding in various stages of drug development.
+
+## Finding Partners
+
+1. **Contract Research Organizations (i.e., CROs)**
+
+    CROs can perform research as a service and can be most cost and time effective than performing in-house research.
+
+    CROs are generally used for tasks such as efficacy studies, assay development and executions, and production for research purposes.
+
+1.  **Contract Developing and Manufacturing Organizations (i.e., CDMOs)**
+
+    These firms perform late-preclinical and clinical research as a service.  These firms can also be more cost and time effective.
+    
+    CDMOs typically provide services such as cell line development, GMP process development, GMP production, and pre-clinical and clincal safety and efficacy.
+    
+1.  **Pharmaceutical Companies**
+
+    A partnership with a pharmaceutical company can be crucial for project success.  Like the previous two examples, pharmaceutical companies can be more time and cost efficient than in-house operations.
+    
+    Pharmaceutical companies can provide extensive experience, external recognition, funding, and market access.
+
+
+
+
+
+

@@ -14,6 +14,7 @@ book:
       - wk2.qmd
       - wk3.qmd
       - wk5.qmd 
+      - wk6.qmd
   repo-url: https://github.com/kevfo/BS4019-stuff
   repo-actions: [edit, issue]
   comments:
