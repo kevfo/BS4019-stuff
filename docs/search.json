@@ -180,5 +180,33 @@
     "title": "5  Clinical Development of Antibodies",
     "section": "5.5 Finding Partners",
     "text": "5.5 Finding Partners\n\nContract Research Organizations (i.e., CROs)\nCROs can perform research as a service and can be most cost and time effective than performing in-house research.\nCROs are generally used for tasks such as efficacy studies, assay development and executions, and production for research purposes.\nContract Developing and Manufacturing Organizations (i.e., CDMOs)\nThese firms perform late-preclinical and clinical research as a service. These firms can also be more cost and time effective.\nCDMOs typically provide services such as cell line development, GMP process development, GMP production, and pre-clinical and clincal safety and efficacy.\nPharmaceutical Companies\nA partnership with a pharmaceutical company can be crucial for project success. Like the previous two examples, pharmaceutical companies can be more time and cost efficient than in-house operations.\nPharmaceutical companies can provide extensive experience, external recognition, funding, and market access."
+  },
+  {
+    "objectID": "wk7.html",
+    "href": "wk7.html",
+    "title": "6  Regulatory Investigational New Drug Application",
+    "section": "",
+    "text": "Timeline of Clinical Development of a New Drug\nThe above figure shows the general timeline (covered in the previous lecture) for developing a novel drug. The entire timeline takes about 12 years."
+  },
+  {
+    "objectID": "wk7.html#pharmacokenetics-versus-pharmacodynamics",
+    "href": "wk7.html#pharmacokenetics-versus-pharmacodynamics",
+    "title": "6  Regulatory Investigational New Drug Application",
+    "section": "6.1 Pharmacokenetics versus Pharmacodynamics",
+    "text": "6.1 Pharmacokenetics versus Pharmacodynamics\n\n\n\n\n\nDifferences Between Pharmacokinetics and Pharmacodynamics\n\n\n\n\nThe above figure illustrates the differences between pharmacokinetics and pharmacodynamics. Pharmacokinetics deals with the administration of a drug while pharmacodynamics deals with the effects of a drug.\n\n6.1.1 Pharmacokinetics\n\n\n\n\n\nElimination of a Drug from the Body\n\n\n\n\nDrugs are eliminated from the human body over time. The half time (i.e., \\(\\displaystyle t_\\frac{1}{2}\\)) of a drug is the amount of time that is needed to clear 50% of it from the body.\n\n6.1.1.1 Biodistributions\n\n\n\n\n\nBiodistribution Schematic\n\n\n\n\n\n\n\n\n\nBiodistribution Schematic in Mice\n\n\n\n\nIn a typical biodistribution setup, the drug is administered (either using single or multiple concentrations) and measured in different organs at different time points.\nDrug concentrations can be detected using fluorescence labeling and radioisotope labeling.\n\n\n\n6.1.2 Pharmacodynamics\n\n\n\n\n\nPotency and Effectiveness\n\n\n\n\nThe potency of a drug is its required dose to generate an effect. A drug’s effectiveness is its intensity of its effects or its response.\n\n\n\n\n\nExample of Rituximab Biodistribution\n\n\n\n\nThe above figure shows an example of a biodistribution assay. The vertical axis represents the percentage of injected dose per gram; the bars represent time post injection.\n\n\n\n\n\nDose Response Curve of Two Drugs\n\n\n\n\nThe above dose-response curve shows the behavior of two hypothetical drugs in vitro. Drug A is more potent while drug B is more effective."
+  },
+  {
+    "objectID": "wk7.html#efficacy-studies-and-toxicology",
+    "href": "wk7.html#efficacy-studies-and-toxicology",
+    "title": "6  Regulatory Investigational New Drug Application",
+    "section": "6.2 Efficacy Studies and Toxicology",
+    "text": "6.2 Efficacy Studies and Toxicology\n\n\n\n\n\nOverview of IND (i.e., International New Drug)\n\n\n\n\n\n6.2.1 Efficacy Studies\n\n\n\n\n\nSeveral Xenograft Models in Mice\n\n\n\n\n\n6.2.1.1 Example: Anti-PDL1 mAb MEDI4736\n\n\n\n\n\nAntitumor Activity in Mice Injected with MEDI4736\n\n\n\n\nIn this study, mABs were injected into mice twice per week; the tumor volume of the mice’s tumors were observed for 25 days.\n\n\n\n6.2.2 Toxicology\n\n\n\n\n\nDuration of Clinical Trials Depending on Model Organism\n\n\n\n\nToxicology studies typically happen in two mammalian species. Mice and rats are the choice organism for rodents while non-human primates (e.g., monkeys) are the choice organism for non-rodents.\n\n\n\n\n\nIllustration of LD50 and ED50\n\n\n\n\nThe ED50 is the Effective Dose for a drug to have some effect on 50% of an organism’s population. The LD50 is the lethal dose for 50% of the population (i.e., the amount needed to kill off 50% of the population).\nThe Therapeutic Index is the quotient of the LD50 and the ED50 - in other words, \\(\\displaystyle \\frac{LD_{50}}{ED_{50}}\\). The standard safety margin is: \\(\\displaystyle \\frac{LD_1 - ED_{99}}{ED_{99}} \\times 100\\)."
+  },
+  {
+    "objectID": "wk7.html#manufacturing",
+    "href": "wk7.html#manufacturing",
+    "title": "6  Regulatory Investigational New Drug Application",
+    "section": "6.3 Manufacturing",
+    "text": "6.3 Manufacturing\n\n6.3.1 Cell Line Development\n\n\n\n\n\nCell Line Development\n\n\n\n\n\n\n6.3.2 Process Development\n\n\n\n\n\nProcess Development\n\n\n\n\n\n\n\n\n\nUpstream Process Optimizations\n\n\n\n\n\n\n\n\n\nDownstream Process Optimizations\n\n\n\n\n\n\n6.3.3 Stability Testing\n\n\n\n\n\n\n\n\n\nIND submissions can be started 1 - 3 months after stability testing."
   }
 ]

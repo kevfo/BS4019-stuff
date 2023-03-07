@@ -1,0 +1,126 @@
+# Regulatory Investigational New Drug Application
+
+```{r echo = F, fig.cap = "Timeline of Clinical Development of a New Drug", fig.align = "center"}
+knitr::include_graphics("images/wk7/timeline.jpg")
+```
+
+The above figure shows the general timeline (covered in the previous lecture) for developing a novel drug. The entire timeline takes about 12 years.
+
+## Pharmacokenetics versus Pharmacodynamics
+
+```{r echo = F, fig.cap = "Differences Between Pharmacokinetics and Pharmacodynamics", fig.align = "center"}
+knitr::include_graphics("images/wk7/pp.jpg")
+```
+
+The above figure illustrates the differences between pharmacokinetics and pharmacodynamics. **Pharmacokinetics** deals with the administration of a drug while **pharmacodynamics** deals with the effects of a drug.
+
+### Pharmacokinetics
+
+```{r echo = F, fig.cap = "Elimination of a Drug from the Body", fig.align = "center"}
+knitr::include_graphics("images/wk7/half.jpg")
+```
+
+Drugs are eliminated from the human body over time. The **half time** (i.e., $\displaystyle t_\frac{1}{2}$) of a drug is the amount of time that is needed to clear 50% of it from the body.
+
+#### Biodistributions
+
+```{r echo = F, fig.cap = "Biodistribution Schematic", fig.align = "center"}
+knitr::include_graphics("images/wk7/biodist.jpg")
+```
+
+```{r echo = F, fig.cap = "Biodistribution Schematic in Mice", fig.align = "center"}
+knitr::include_graphics("images/wk7/mice.jpg")
+```
+
+In a typical biodistribution setup, the drug is administered (either using single or multiple concentrations) and measured in different organs at different time points.
+
+Drug concentrations can be detected using fluorescence labeling and radioisotope labeling.
+
+### Pharmacodynamics
+
+```{r echo = F, fig.cap = "Potency and Effectiveness", fig.align = "center"}
+knitr::include_graphics("images/wk7/mice.jpg")
+```
+
+The **potency** of a drug is its required dose to generate an effect. A drug's **effectiveness** is its intensity of its effects or its response.
+
+```{r echo = F, fig.cap = "Example of Rituximab Biodistribution", fig.align = "center"}
+knitr::include_graphics("images/wk7/rituxdist.jpg")
+```
+
+The above figure shows an example of a biodistribution assay.  The vertical axis represents the percentage of injected dose per gram; the bars represent time post injection.
+
+```{r echo = F, fig.cap = "Dose Response Curve of Two Drugs", fig.align = "center"}
+knitr::include_graphics("images/wk7/rituxdist.jpg")
+```
+
+The above dose-response curve shows the behavior of two hypothetical drugs *in vitro*.  Drug A is more potent while drug B is more effective.
+
+## Efficacy Studies and Toxicology
+
+```{r echo = F, fig.cap = "Overview of IND (i.e., International New Drug)", fig.align = "center"}
+knitr::include_graphics("images/wk7/all.jpg")
+```
+
+### Efficacy Studies
+
+```{r echo = F, fig.cap = "Several Xenograft Models in Mice", fig.align = "center"}
+knitr::include_graphics("images/wk7/mouse.jpg")
+```
+
+#### Example: Anti-PDL1 mAb MEDI4736
+
+```{r echo = F, fig.cap = "Antitumor Activity in Mice Injected with MEDI4736", fig.align = "center"}
+knitr::include_graphics("images/wk7/micedata.jpg")
+```
+
+In this study, mABs were injected into mice twice per week; the tumor volume of the mice's tumors were observed for 25 days.
+
+### Toxicology 
+
+```{r echo = F, fig.cap = "Duration of Clinical Trials Depending on Model Organism", fig.align = "center"}
+knitr::include_graphics("images/wk7/organisms.jpg")
+```
+
+Toxicology studies typically happen in two mammalian species.  Mice and rats are the choice organism for rodents while non-human primates (e.g., monkeys) are the choice organism for non-rodents.
+
+```{r echo = F, fig.cap = "Illustration of LD~50~ and ED~50~", fig.align = "center"}
+knitr::include_graphics("images/wk7/ti.jpg")
+```
+
+The **ED~50~** is the **E**ffective **D**ose for a drug to have some effect on 50% of an organism's population.  The **LD~50~** is the lethal dose for 50% of the population (i.e., the amount needed to kill off 50% of the population).
+
+The **Therapeutic Index** is the quotient of the LD~50~ and the ED~50~ - in other words, $\displaystyle \frac{LD_{50}}{ED_{50}}$.  The standard safety margin is: $\displaystyle \frac{LD_1 - ED_{99}}{ED_{99}} \times 100$.
+
+## Manufacturing 
+
+### Cell Line Development
+
+```{r echo = F, fig.cap = "Cell Line Development", fig.align = "center"}
+knitr::include_graphics("images/wk7/production.jpg")
+```
+
+### Process Development 
+
+```{r echo = F, fig.cap = "Process Development", fig.align = "center"}
+knitr::include_graphics("images/wk7/process.jpg")
+```
+
+```{r echo = F, fig.cap = "Upstream Process Optimizations", fig.align = "center"}
+knitr::include_graphics("images/wk7/upstream.jpg")
+```
+
+```{r echo = F, fig.cap = "Downstream Process Optimizations", fig.align = "center"}
+knitr::include_graphics("images/wk7/downstream.jpg")
+```
+
+### Stability Testing
+
+```{r echo = F, fig.cap = "", fig.align = "center"}
+knitr::include_graphics("images/wk7/stability.jpg")
+```
+
+IND submissions can be started 1 - 3 months after stability testing.
+
+
+
