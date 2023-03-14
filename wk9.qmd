@@ -1,0 +1,58 @@
+# FDA Approval and Post-Market Surveillance 
+
+This lecture focuses on the following contents:
+
+1.  Post-market surveillance (i.e., phase IV)
+1.  Pricing 
+1.  Life cycle of drugs and biosimilars 
+
+```{r echo = F, fig.cap = "Major Drug Regulatory Agencies in Nations", fig.align = "center"}
+knitr::include_graphics("images/wk9/majorDrug.jpg")
+```
+
+The above figure lists some major drug regulatory agencies in various nations (including Singapore).  Also recall that it takes about 12 years for a drug to go from its discovery to market authorization.
+
+## Objectives of Postmarketing Surveillance Trials 
+
+```{r echo = F, fig.cap = "Objectives of Phase IV Trials", fig.align = "center"}
+knitr::include_graphics("images/wk9/objectives.jpg")
+```
+
+The above figure lists some objectives in of postmarket surveillance.
+
+### Sales
+
+```{r echo = F, fig.cap = "Sales in the Monoclonal Antibody Market", fig.align = "center"}
+knitr::include_graphics("images/wk9/sales.jpg")
+```
+
+Prices for monoclonal antibodies are also influenced by numerous factors:
+
+```{r echo = F, fig.cap = "Factors that Influence Price Sensitivity in the mAB Market", fig.align = "center"}
+knitr::include_graphics("images/wk9/factors.jpg")
+```
+
+```{r echo = F, fig.cap = "Pricing Rates for Monoclonal Antibodies in the USA", fig.align = "center"}
+knitr::include_graphics("images/wk9/usaPricing.jpg")
+```
+
+The above figure shows average pricing rates for monoclonal antibodies depending on the kind of treatment that the mAB in question is used for.
+
+```{r echo = F, fig.cap = "Factors that Influence Purchasing", fig.align = "center"}
+knitr::include_graphics("images/wk9/purchaseFactors.jpg")
+```
+
+There are also several layers that influence the sale of a monoclonal antibody.
+
+## Lifecycle of Drugs
+
+```{r echo = F, fig.cap = "Lifecycle of a Drug in Profits", fig.align = "center"}
+knitr::include_graphics("images/wk9/lifecycle.jpg")
+```
+
+```{r echo = F, fig.cap = "Comparisons of Costs and Focuses Between Biologics and Biosimilars", fig.align = "center"}
+knitr::include_graphics("images/wk9/dev.jpg")
+```
+
+
+
