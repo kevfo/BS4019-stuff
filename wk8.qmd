@@ -1,0 +1,8 @@
+# Clinical Trials for Antibody Therapies
+
+```{r echo = F, fig.cap = "Major Drug Regulatory Companies", fig.align = "center"}
+knitr::include_graphics("images/wk9/majorDrug.jpg")
+```
+
+
+
