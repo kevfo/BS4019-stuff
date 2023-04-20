@@ -4,5 +4,99 @@
 knitr::include_graphics("images/wk9/majorDrug.jpg")
 ```
 
+According to the US' **N**ational **I**nstitute of **H**ealth (i.e., **NIH**), the main ethical requirements for any study are:
+
+1.  Social value
+1.  Scientific validity
+1.  Fair subject selection
+1.  Consent
+1.  Favorable risk to benefit ratio
+1.  Independent review
+1.  Respect for human subjects
+
+A thorough review will also be performed by the major regulatory agencies in the above figure (depending on where one is).
+
+## Phase I Studies 
+
+```{r echo = F, fig.cap = "Objectives of a Phase I Study", fig.align = "center"}
+knitr::include_graphics("images/wk8/phasei.jpg")
+```
+
+The above figure lists some important ideas to note as they pertain to phase I studies.
+
+```{r echo = F, fig.cap = "Grades of Adverse Events and their Meanings", fig.align = "center"}
+knitr::include_graphics("images/wk8/aes.jpg")
+```
+
+The above figure lists five different grades of **a**dverse **e**ffects (i.e., **AE**s).  
+
+### Examples 
+
+```{r echo = F, fig.cap = "Mechanism of Blinatumomab", fig.align = "center"}
+knitr::include_graphics("images/wk8/bli.jpg")
+```
+
+Blinatumomab is an antibody that binds to CD3 and CD19 proteins.
+
+```{r echo = F, fig.cap = "Adverse Effects Pertaining to Blinatumomab", fig.align = "center"}
+knitr::include_graphics("images/wk8/ex1.jpg")
+```
+
+```{r echo = F, fig.cap = "Adverse Effects Pertaining to Blinatumomab", fig.align = "center"}
+knitr::include_graphics("images/wk8/ex2.jpg")
+```
+
+```{r echo = F, fig.cap = "Adverse Effects Pertaining to Blinatumomab", fig.align = "center"}
+knitr::include_graphics("images/wk8/ex3.jpg")
+```
+
+The above figure lists some adverse effects as they pertain to Blinatumomab.
+
+## Phase II Studies 
+
+```{r echo = F, fig.cap = "Objectives of Phase II Studies", fig.align = "center"}
+knitr::include_graphics("images/wk8/pii.jpg")
+```
+
+```{r echo = F, fig.cap = "Terms Used in Phase II Studies", fig.align = "center"}
+knitr::include_graphics("images/wk8/pii.jpg")
+```
+
+```{r echo = F, fig.cap = "More Terms Used in Phase II Studies", fig.align = "center"}
+knitr::include_graphics("images/wk8/pii.jpg")
+```
+
+The above graphics list some terms used in phase II studies and the overall objectives of a phase II study.
+
+### Examples of Safety and Study Techniques in Phase II
+
+```{r echo = F, fig.cap = "Phase II Safety", fig.align = "center"}
+knitr::include_graphics("images/wk8/psiistudy.jpg")
+```
+
+```{r echo = F, fig.cap = "Phase II Study Design", fig.align = "center"}
+knitr::include_graphics("images/wk8/psiisafety.jpg")
+```
+
+The abvoe graphics show some design and safety considerations when it comes to study design in phase II studies.
+
+## Phase II Studies 
+
+```{r echo = F, fig.cap = "Objectives of Phase III Studies", fig.align = "center"}
+knitr::include_graphics("images/wk8/psiii.jpg")
+```
+
+### Hazard Ratios
+
+```{r echo = F, fig.cap = "Meanings of Hazard Ratio Values", fig.align = "center"}
+knitr::include_graphics("images/wk8/hrmeaning.jpg")
+```
+
+A **hazard ratio** (i.e., **HR**) is the proportion of those in the treatment group who have an AE to those in the control who have an AE.
+
+The above graphic also illustrates what different hazard ratios mean.
+
+
+
 
 
